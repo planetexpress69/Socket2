@@ -11,6 +11,7 @@
 		5B2417691D6C560500F9D089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2417681D6C560500F9D089 /* main.m */; };
 		5B24176B1D6C560500F9D089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B24176A1D6C560500F9D089 /* Assets.xcassets */; };
 		5B24176E1D6C560500F9D089 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B24176C1D6C560500F9D089 /* MainMenu.xib */; };
+		5B2417771D6C89BA00F9D089 /* ServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2417761D6C89BA00F9D089 /* ServerThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		5B24176A1D6C560500F9D089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B24176D1D6C560500F9D089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5B24176F1D6C560500F9D089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2417751D6C89BA00F9D089 /* ServerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerThread.h; sourceTree = "<group>"; };
+		5B2417761D6C89BA00F9D089 /* ServerThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,8 @@
 		5B2417631D6C560500F9D089 /* Socket2 */ = {
 			isa = PBXGroup;
 			children = (
+				5B2417751D6C89BA00F9D089 /* ServerThread.h */,
+				5B2417761D6C89BA00F9D089 /* ServerThread.m */,
 				5B2417641D6C560500F9D089 /* AppDelegate.h */,
 				5B2417651D6C560500F9D089 /* AppDelegate.m */,
 				5B24176A1D6C560500F9D089 /* Assets.xcassets */,
@@ -142,6 +147,7 @@
 			files = (
 				5B2417691D6C560500F9D089 /* main.m in Sources */,
 				5B2417661D6C560500F9D089 /* AppDelegate.m in Sources */,
+				5B2417771D6C89BA00F9D089 /* ServerThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +253,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Socket2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = de.teambender.Socket2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,6 +266,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Socket2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = de.teambender.Socket2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,6 +291,7 @@
 				5B2417741D6C560500F9D089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
