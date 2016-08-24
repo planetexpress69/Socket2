@@ -20,3 +20,7 @@ echo -e 'START' | nc localhost 6658
 
 Written in Objective-C using Xcode 7.3.1 under OS X 10.11.6, I see no 
 reason why it shouldn't run on older OS X versions too.
+
+##Acknowledgements
+Thanks to [Rahul Yadav](http://codevlog.com/) for teaching me on sockets!
+Consider following [him](https://twitter.com/codevlog_com) on Twitter.

@@ -2,8 +2,8 @@
 //  ServerThread.h
 //  TCPDataTransfer
 //
-//  Created by Rahul Yadav on 30/12/15.
-//  Copyright © 2015 Rahul Yadav. All rights reserved.
+//  Created by Martin Kautz on 23.08.16.
+//  Copyright © 2016 Raketenmann. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
