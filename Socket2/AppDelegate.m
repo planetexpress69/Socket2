@@ -114,7 +114,7 @@
 }
 
 - (IBAction)stopServerNow:(id)sender {
-    [obj_server_thread StopServer];
+    [obj_server_thread stopServer];
     [obj_server_thread cancel];
 }
 

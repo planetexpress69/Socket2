@@ -23,5 +23,5 @@
 
 -(void)initializeServer;
 -(void)main;
--(void)StopServer;
+-(void)stopServer;
 @end
